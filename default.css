@@ -32,6 +32,14 @@ input{
 	width: 10%;
 }
 
+#randNum {
+  display: inline-block;
+  text-align: center;
+  font-size: 30px;
+  border: solid;
+  padding: 3px 3px 3px 3px;
+}
+
 /* Popup container */
 .popup {
   position: relative;

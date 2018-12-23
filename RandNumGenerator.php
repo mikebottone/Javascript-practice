@@ -26,7 +26,12 @@ Interval for random number:
 		</tr>
 	</table>
 </div>
-<p id="randNum"></p>
+<br>
+<div id="clock">
+The random number is: <br/>
+<p id="randNum">0</p>
+</div>
+<br>
 <button onclick="document.getElementById('randNum').innerHTML = randNumGenerator(document.getElementById('minNum').value, document.getElementById('maxNum').value)">Submit</button>
 
  <script src="scripts/randNum.js"></script>

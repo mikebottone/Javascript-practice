@@ -18,5 +18,15 @@ var now = new Date();
 updateTime();
 
 function randNumGenerator(minNum, maxNum){
-	return Math.floor(Math.random() * (maxNum - minNum) ) + minNum;
+	minNum = Number(minNum);
+	maxNum = Number(maxNum); 
+
+	if (maxNum < minNum) {
+	alert("The upper bound must be greater than the lower bound.");
+	return 0;
+	}
+	else {
+	return Math.floor(Math.random() * (maxNum - minNum + 1)) + minNum;
+	}
 }
+
