@@ -17,6 +17,8 @@ var now = new Date();
 }
 updateTime();
 
+
+//random Number
 function randNumGenerator(minNum, maxNum){
 	minNum = Number(minNum);
 	maxNum = Number(maxNum); 

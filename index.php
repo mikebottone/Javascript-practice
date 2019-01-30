@@ -12,6 +12,9 @@
 		<li>
 			<a href="RandNumGenerator.php">Random Number Generator</a>
 		</li>
+		<li>
+			<a href="blackJack.php">Play Black Jack</a>
+		</li>
 	</ul>
 </body>
 </html>
