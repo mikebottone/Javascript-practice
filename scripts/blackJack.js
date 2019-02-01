@@ -199,7 +199,7 @@ function showStatus(){
 
 function shuffleDeck(deck){
 	for (let i = 0; i< deck.length; i++){
-		let swapIndex = Math.trunc(Math.randon() * deck.length);
+		let swapIndex = Math.trunc(Math.random() * deck.length);
 		let temp = deck[swapIndex];
 		deck[swapIndex] = deck[i];
 		deck[i] = temp;
